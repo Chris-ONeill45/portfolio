@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Contact</title>
 </head>
 
 <header>
-    <h1>Contacts</h1>
+    <h1>Contact Me</h1>
 </header>
+
+<body>
+    <h2>I'd love to hear from you</h2>
+    <p>Whether you have a big, or small question. I'm here and happy to help</p>
+</body>
+
+<fieldset>
+    <legend>Personal Details:</legend>
+    <label>
+        Name:
+        <input type="text" name="name">
+        <br>
+        Email:
+        <input type="text" name="email">
+    </label>
+</fieldset>
+<fieldset>
+    <legend>What is your reason for contacting me?</legend>
+    <input type="radio" name="question" value="Big question" checked="checked"> Big question
+    <input type="radio" name="question" value="Small question"> Small question
+    <input type="radio" name="question" value="General"> General
+</fieldset>
+
+<fieldset>
+    <legend>Comments</legend>
+
+    <label for="notes">What's your question?</label>
+    <textarea id="notes"></textarea>
+</fieldset>
 
 <body>
 
