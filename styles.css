@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+.test-class {
+  color: chartreuse;
+}
+
+#Photos {
+  background-color: darkorange;
+  color: aqua;
+  padding: 20px;
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
