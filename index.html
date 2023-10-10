@@ -7,9 +7,6 @@
 
   <header>
     <h1>Chris O'Neill</h1>
-    <figure>
-      <img src="./images/chrisoneill.JPG" alt="Chris O'Neill" />
-    </figure>
     <h2>
       People don't care about what you say, they care about what you build
     </h2>
@@ -30,17 +27,25 @@
 
   <main>
     <body>
-      <section>
-        <h3 class="test-class">About Me</h3>
+      <div id="about-me">
+        <h3>About Me</h3>
+        <img
+          class="profile-pic"
+          src="./images/chrisoneill.JPG"
+          alt="A picture of Chris O'Neill"
+        />
         <p>
           A fun loving enthusiast, that enjoys new challanges and competition.
           Driven by new frontiers of learning and exploring the unkown.
         </p>
         <p>
           Inspired by one of my closest friends to venture down the developer
-          road. One day dreaming of working beside him, and making a difference.
+          road. Dreaming of one day working beside him, and making a difference.
         </p>
-      </section>
+        <div>
+          <p>Third paragraph</p>
+        </div>
+      </div>
 
       <section>
         <div id="Photos">
@@ -94,6 +99,22 @@
     </ul>
   </section>
   <hr />
+
+  <div id="“socials”">
+    <h3>My Socials</h3>
+    /* These links are just a demo, so i've left the href blank. */
+    <p>Follow me on <a href="">Twitter</a>!</p>
+    <p>Follow me on <a href="">Instagram</a>!</p>
+    /* The below are form elements, we will get to those later on so don't worry
+    about these just yet, we just need them for demo purposes */
+    <input type="checkbox" id="box" name="test-checkbox" checked />
+    <label for="test-checkbox">Check this box for some reason</label>
+    /*The button below is just a demo, so it doesn't do anything, we will add
+    the disabled attribute though, more on that below...*/
+    <button>You can't press this...</button>
+  </div>
+  <hr />
+
   <footer>
     <p>Year: 2023</p>
     <p>Author: Chris O'Neill</p>
